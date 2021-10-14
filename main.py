@@ -36,6 +36,9 @@ def run():
             if len(line) > 1:
                 # Extracting parameters is defined
                 params = line[1].split(',')
+                if len(params) != 3:
+                    print('Invalid format for PLACE command. Correct one is PLACE 0,0,NORTH')
+                    continue
                 x = int(params[0])
                 y = int(params[1])
                 direction = Direction(get_direction_flag(params[2]))
