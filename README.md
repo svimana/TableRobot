@@ -16,3 +16,7 @@ Commands (CAPITAL LETTERS ONLY):
 	LEFT - Rotate the robot 90 degrees to the left without changing the position of the robot.  
 	RIGHT - Rotate the robot 90 degrees to the right without changing the position of the robot.  
 	REPORT - Announce the X,Y and Direction of the robot.  
+	
+	
+# How to run
+>python main.py
