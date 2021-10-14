@@ -41,7 +41,7 @@ def run():
                 direction = Direction(get_direction_flag(params[2]))
             cmd = line[0]
             if cmd == 'EXIT':
-                print("Terminating the game. Hope you've enjoyed it and see you back soon!")
+                print("Terminating the Game. Hope you've enjoyed it and see you back soon!")
                 return
             if cmd == 'HELP':
                 print_help()
